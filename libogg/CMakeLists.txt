@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project (libogg)
+project (ogg)
 
 if(NOT (${CMAKE_CXX_COMPILER_ID} STREQUAL MSVC))
 set(INCLUDE_INTTYPES_H 0)

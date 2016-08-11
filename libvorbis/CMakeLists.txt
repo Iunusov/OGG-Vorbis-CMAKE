@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project (libvorbis)
+project (vorbis)
 
 set(SOURCE_LIB
 ${CMAKE_CURRENT_SOURCE_DIR}/lib/analysis.c
@@ -37,5 +37,5 @@ include_directories (${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
 set_property(TARGET ${PROJECT_NAME} PROPERTY POSITION_INDEPENDENT_CODE ON)
 
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} libogg)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ogg)
 
